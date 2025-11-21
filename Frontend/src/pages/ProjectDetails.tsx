@@ -121,7 +121,7 @@ export default function ProjectDetail() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Building2 className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">Laduram</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Laduram kumawat</h1>
             </div>
             <nav className="hidden md:flex items-center gap-6">
               <button onClick={() => navigate('/')} className="text-gray-700 hover:text-blue-600">Home</button>

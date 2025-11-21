@@ -1,13 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { viteSourceLocator } from "@metagptx/vite-plugin-source-locator";
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   plugins: [
-    viteSourceLocator({
-      prefix: "mgx",
-    }),
     react(),
   ],
   resolve: {
@@ -16,13 +12,13 @@ export default defineConfig(({ mode }) => ({
     },
   },
   server: {
-    port: 5173, // optional - default for Vite
+    port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:5000", // 👈 your backend URL
+        target: "http://localhost:5000",
         changeOrigin: true,
         secure: false,
       },
     },
   },
-}));
+});
