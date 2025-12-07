@@ -259,7 +259,7 @@ export default function Builder() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Building2 className="w-8 h-8 text-blue-400" />
-                <h3 className="text-2xl font-bold">BuildPro</h3>
+                <h3 className="text-2xl font-bold">laduram kumawat</h3>
               </div>
               <p className="text-gray-400">
                 Your trusted partner in finding the perfect home.
