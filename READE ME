@@ -1,0 +1,99 @@
+BuildPro - Construction Company Website
+A modern, responsive construction company website built with React, TypeScript, and Tailwind CSS.
+
+Features
+🏠 Home Page: Showcasing company services, stats, and featured projects
+🏗️ Projects Gallery: Browse all construction projects with filtering
+🏘️ Property Listings: Explore available properties with search and filters
+📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile
+🎨 Modern UI: Built with shadcn/ui components and Tailwind CSS
+⚡ Fast Performance: Optimized build with Vite
+Tech Stack
+Frontend: React 18 + TypeScript
+Styling: Tailwind CSS + shadcn/ui
+Build Tool: Vite
+Routing: React Router v6
+Icons: Lucide React
+Installation
+Extract the archive:
+tar -xzf buildpro-website.tar.gz
+cd buildpro-website
+Install dependencies:
+pnpm install
+# or
+npm install
+# or
+yarn install
+Start development server:
+pnpm run dev
+# or
+npm run dev
+# or
+yarn dev
+The website will be available at http://localhost:5173
+
+Build for Production
+pnpm run build
+# or
+npm run build
+# or
+yarn build
+The production-ready files will be in the dist/ directory.
+
+Deployment
+Deploy to Your Own Server
+Build the project:
+pnpm run build
+Upload the dist/ folder to your web server
+
+Configure your web server to serve the index.html file for all routes (for React Router to work)
+
+Deploy to Vercel
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+Deploy to Netlify
+# Install Netlify CLI
+npm i -g netlify-cli
+
+# Deploy
+netlify deploy --prod --dir=dist
+Project Structure
+buildpro-website/
+├── src/
+│   ├── components/
+│   │   └── ui/          # shadcn/ui components
+│   ├── pages/
+│   │   ├── Index.tsx    # Home page
+│   │   ├── Projects.tsx # Projects gallery
+│   │   ├── Builder.tsx  # Property listings
+│   │   └── ...          # Other pages
+│   ├── App.tsx          # Main app component with routing
+│   └── main.tsx         # Entry point
+├── public/
+│   └── downloads/       # Downloadable files
+├── package.json
+└── vite.config.ts
+Customization
+Update Company Information
+Edit the content in:
+
+src/pages/Index.tsx - Home page content
+src/pages/Projects.tsx - Projects data
+src/pages/Builder.tsx - Property listings
+Change Colors
+Update the Tailwind config or use the color classes:
+
+Primary: blue-600
+Secondary: gray-900
+Accent: green-500
+Add New Pages
+Create a new component in src/pages/
+Add the route in src/App.tsx
+License
+© 2024 BuildPro. All rights reserved.
+
+Support
+For support, email info@buildpro.com or call +91 98765 43210
