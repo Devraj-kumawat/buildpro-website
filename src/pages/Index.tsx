@@ -64,7 +64,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Building2 className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">Laduram</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Laduram kumawat</h1>
             </div>
             <nav className="hidden md:flex items-center gap-6">
               <button onClick={() => navigate('/')} className="text-gray-700 hover:text-blue-600">Home</button>
@@ -237,7 +237,7 @@ export default function Index() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Building2 className="w-8 h-8 text-blue-400" />
-                <h3 className="text-2xl font-bold">Laduram </h3>
+                <h3 className="text-2xl font-bold">Laduram kumawat </h3>
               </div>
               <p className="text-gray-400">
                 Professional construction services with excellence and reliability.
@@ -285,7 +285,7 @@ export default function Index() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Laduram. All rights reserved.</p>
+            <p>&copy; 2025 Laduram kumawat. All rights reserved.</p>
           </div>
         </div>
       </footer>

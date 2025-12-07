@@ -98,7 +98,7 @@ export default function Payment() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Building2 className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">Laduram</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Laduram kumawat</h1>
             </div>
             <Button variant="outline" onClick={() => navigate('/builder')}>
               <ArrowLeft className="w-4 h-4 mr-2" />
